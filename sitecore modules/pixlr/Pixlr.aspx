@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Pixlr.aspx.cs" Inherits="SharedSource.Pixlr.sitecore_modules.Pixlr" %>
