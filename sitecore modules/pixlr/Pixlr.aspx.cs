@@ -55,7 +55,7 @@ namespace SharedSource.Pixlr.sitecore_modules
             nv.Add("locktitle", "true");
             nv.Add("referrer", "Sitecore");
 
-            var response = Utils.HttpUploadHelper.Upload("http://pixlr.com/" + Request.QueryString["mode"] + "/",files , nv);
+            var response = Utils.HttpUploadHelper.Upload("http://apps.pixlr.com/" + Request.QueryString["mode"] + "/",files , nv);
 
             File.Delete(filenamepath);
 
